@@ -7,26 +7,43 @@ Design and implement an agent that navigates a 4x4 grid world. The agent starts 
 Pseudocode: Grid Agent Navigation Simulation
 
 Input: Grid size = 4, random obstacles, goal = (3,3)
+
 Output: Agent path or failure message
 
+
 Initialize Environment
+
 1.1 Create a 4×4 grid filled with '.'
+
 1.2 Randomly place 4 obstacles ('#'), excluding the goal
+
 1.3 Mark goal cell as 'G'
 
+
 Set Starting Position
+
 2.1 Randomly choose a start cell not equal to goal or obstacle
 
 Simulation Loop (max 30 steps)
+
 3.1 While agent ≠ goal and steps < 30:
+
   a. Detect obstacles in four directions (up, down, left, right)
+  
   b. Determine preferred moves toward goal
+  
   c. Remove blocked directions
+  
   d. If no preferred moves, choose any safe direction
+  
   e. If no moves available, stop (agent stuck)
+  
   f. Move agent to new position and increment step count
+  
   g. Print current grid
 
 Check Result
+
 4.1 If agent reached goal → print “Success”
+
 4.2 Else → print “Failed to reach goal”
