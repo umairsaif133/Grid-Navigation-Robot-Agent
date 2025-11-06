@@ -4,7 +4,7 @@ Design and implement an agent that navigates a 4x4 grid world. The agent starts 
 <img width="603" height="474" alt="image" src="https://github.com/user-attachments/assets/2648f065-5856-4f54-bdd9-7c884fb3762a" />
 
 
-Algorithm: Grid Agent Navigation
+Pseudocode: Grid Agent Navigation Simulation
 
 Input: Grid size = 4, random obstacles, goal = (3,3)
 Output: Agent path or failure message
